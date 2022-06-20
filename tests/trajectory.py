@@ -2,6 +2,9 @@ import pickle
 import numpy as np
 
 def from_file(fname):
+    """
+    G-code files are modified versions of https://github.com/grbl/grbl/wiki/G-Code-Examples.
+    """
     f = open(fname, 'r')
     gc = f.read().split('\n')
     f.close()
