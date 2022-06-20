@@ -1,5 +1,7 @@
-# https://github.com/grbl/grbl/blob/master/doc/script/simple_stream.py
-# reference for g-code: https://greenetool.com/troubleshooting-carbide-cutting-tools/list-of-g-codes/
+"""
+Send G-code to gantry from computer.
+This is a modified version of https://github.com/grbl/grbl/blob/master/doc/script/simple_stream.py.
+"""
 
 import serial
 import time

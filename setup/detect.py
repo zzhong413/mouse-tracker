@@ -1,8 +1,6 @@
 """
-Author: EZ
-Open camera
-Find blob
-Mark blob (on the OMV IDE)
+Open camera, find blob, and mark blob. 
+This is a modified version of OpenMV example single_color_rgb565_blob_tracking.py.
 """
 
 import time, mjpeg

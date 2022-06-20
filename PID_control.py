@@ -25,7 +25,7 @@ def control_loop(params, uart):
     clock = time.clock()
     thresholds = [(0, 24, -128, 127, -128, 127)]
     rx, ry = 160, 120 # desired output for QVGA
-    sf = 1 # scaling factor = n unit length in grbl per pixel length; currently, 80 pixel = 22.5 inch = 571.5 mm = 571.5 grbl unit
+    sf = 1 # scaling factor = n unit length in grbl per pixel length
 
     # initialize pid
     pidx = PID(p=params[2], i=params[3], d=params[4], imax=90)

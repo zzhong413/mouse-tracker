@@ -1,3 +1,8 @@
+"""
+Send G-code to gantry from OpenMV camera.
+This is a modified version of https://github.com/grbl/grbl/blob/master/doc/script/simple_stream.py.
+"""
+
 import time
 from helpers.gc_streamer import GcodeStreamer
 
